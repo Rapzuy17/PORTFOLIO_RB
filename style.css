@@ -247,13 +247,13 @@ section {
 }
 .project-card img {
   width: 100%;
-  height: 100%;
-  min-height: 130px;
+  height: auto;
   max-height: 220px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 4px;
   border: 1px solid var(--line);
   background: var(--black-alt);
+  align-self: start;
 }
 .project-card h3 { font-size: 1.2rem; margin-bottom: 0.4rem; }
 .project-card .desc { color: var(--text-soft); font-size: 0.95rem; }
